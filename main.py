@@ -5,7 +5,7 @@ Telegram Bot with State Machine
 
 import telebot
 from transitions import Machine, State
-import config
+# import config
 
 
 # states of state machine
@@ -29,7 +29,9 @@ list_questions = ['Какую пиццу Вы хотите заказать: б�
                   'Спасибо за заказ!']
 
 # init bot
-bot = telebot.TeleBot(config.TOKEN)
+# bot = telebot.TeleBot(config.TOKEN)
+TOKEN = '5093714184:AAGCs5Cy1axrvAf1MqElrDfBulwTnG2n-E0'  # bot token from @BotFather
+bot = telebot.TeleBot(TOKEN)
 
 
 @bot.message_handler(commands=['start'])
