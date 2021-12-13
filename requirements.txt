@@ -1,2 +1,2 @@
-telebot
-transitions
+pyTelegramBotAPI==3.6.7
+transitions==0.8.10

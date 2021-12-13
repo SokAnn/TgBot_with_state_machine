@@ -2,9 +2,11 @@
 Telegram Bot with State Machine
 """
 
+
 import telebot
 from transitions import Machine, State
 import config
+
 
 # states of state machine
 states = ['init', 'begin', 'large_pizza', 'small_pizza', 'cash', 'non_cash', 'end']
